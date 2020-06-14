@@ -366,14 +366,20 @@
 // var subj2=prompt("enter your 2nd subject name:");
 // var subj3=prompt("enter your 3rd subject name:");
 // var total_marks=100;
+// var total_marks_all=300;
 // var marks1=+prompt("Marks obtain in 1st subj:");
 // var marks2=+prompt("Marks obtain in 2nd subj:");
 // var marks3=+prompt("Marks obtain in 3rd subj:");
-// var total_num=subj1+subj2+subj3;
-// var percent1= (subj1/total_marks)*100;
-// var percent2= (subj2/total_marks)*100;
-// var percent3= (subj3/total_marks)*100;
-// var tota_percentage=percent1+percent2+percent3;
+// var total_num=marks1+marks2+marks3;
+// var percent1= (marks1/total_marks)*100;
+// var percent2= (marks2/total_marks)*100;
+// var percent3= (marks3/total_marks)*100;
+// var total_percentage=percent1+percent2+percent3;
+// document.write("Subject".bold()+" "+" Total marks".bold()+" "+"Obtained Marks".bold()+" "+"Percentage".bold()+"<br>")
+// document.write(subj1+" "+total_marks+" "+marks1+" "+percent1+"%"+"<br>")
+// document.write(subj2+" "+total_marks+" "+marks2+" "+percent2+"%"+"<br>")
+// document.write(subj3+" "+total_marks+" "+marks3+" "+percent3+"%"+"<br>")
+// document.write('&nbsp;'+'&nbsp;'+total_marks_all+" "+total_num+" "+total_percentage+"%"+"<br>")
 
 
 // //===============CHAPTER-9-11 ==================== //
